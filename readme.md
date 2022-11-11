@@ -1,6 +1,6 @@
 # Shrun
 
-This application is meant for running commands on a remote host or multiple hosts via an ssh connection.
+This application is meant for running commands on a remote host or multiple hosts via an ssh connection. **When prompted for a password on the remote server, the password will be supplied from the environment**
 
 ## Usage
 
