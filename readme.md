@@ -6,13 +6,13 @@ This application is meant for running commands on a remote host or multiple host
 
 To run the application you have two arguments to pass in. First you can pass in a command
 string `"sudo puppet agent -t"` and a comma separated list of hosts
-`"dev-test-app-app200.arbfund.com,`dev-test-app-app201.arbfund.com"`.
+`"dev-test-app-app200.myhost.com,`dev-test-app-app201.myhost.com"`.
 
 For this to work you will need to set the `"password"` environment variable to your password. The cli will try to get
 the username from the system and if that fails it will try to read in the `"username"` environment variable.
 
 ```shell
-shrun "sudo puppet agent -t" dev-test-app-app200.arbfund.com
+shrun "sudo puppet agent -t" dev-test-app-app200.myhost.com
 ```
 
 ### Advanced flags
